@@ -1,8 +1,12 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
+import TodoList from './TodoList';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <TodoList />
+    </>
+  );
 }
 
 export default App;
